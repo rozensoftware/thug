@@ -4,8 +4,8 @@
 constexpr auto MAX_JPG_SIZE = 1024 * 1024;
 constexpr auto RTL = 0x202e;
 
-#pragma section("thugsection", read)
-__declspec(allocate("thugsection")) static unsigned char pic_data[MAX_JPG_SIZE];
+#pragma section("thugsect", read)
+__declspec(allocate("thugsect")) static unsigned char pic_data[MAX_JPG_SIZE];
 
 using namespace std;
 
