@@ -41,7 +41,7 @@ The maximum size of the image is 1MB. The file's icon is also changed so that Wi
 the file as a regular photo. 
 The resulting file name is also changed so that the extension jpg is displayed, instead of exe.
 
-When the user runs the tagret file, the saved photo will be displayed using the Windows photo viewer or 
+When the user runs the target file, the saved photo will be displayed using the Windows photo viewer or 
 another default app registered on the system. 
 Then the actual photo will be saved to the location of the file, 
 running the malicious code and deleting the executable file. 
